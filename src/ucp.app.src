@@ -1,0 +1,12 @@
+{application, ucp,
+[
+    {description, "UnicodeCodePoints"},
+    {vsn, "0.0.1"},
+    {modules, [ucp]},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
